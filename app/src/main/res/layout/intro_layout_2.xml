@@ -29,23 +29,23 @@
             android:layout_gravity="center"
             >
 
-          <!--  <ImageView
-                android:id="@+id/fish1"
+            <ImageView
+                android:id="@+id/fish11"
                 android:layout_width="60dp"
                 android:layout_height="50dp"
                 android:layout_gravity="left"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="50dp"
-                android:src="@drawable/f1" />-->
+                android:src="@drawable/f11" />
 
             <ImageView
-                android:id="@+id/fish2"
+                android:id="@+id/fish12"
                 android:layout_width="60dp"
                 android:layout_height="50dp"
                 android:layout_gravity="left"
                 android:layout_marginLeft="80dp"
                 android:layout_marginTop="50dp"
-                android:src="@drawable/f2" />
+                android:src="@drawable/f12" />
 
             <ImageView
                 android:id="@+id/whale"
@@ -56,23 +56,23 @@
                 android:src="@drawable/blue_whale" />
 
             <ImageView
-                android:id="@+id/fish3"
+                android:id="@+id/fish13"
                 android:layout_width="60dp"
                 android:layout_height="50dp"
-                android:layout_gravity="right"
-                android:layout_marginRight="100dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="80dp"
                 android:layout_marginTop="50dp"
-                android:src="@drawable/f3" />
+                android:src="@drawable/f13" />
 
 
-            <!--<ImageView
-                android:id="@+id/fish4"
+            <ImageView
+                android:id="@+id/fish14"
                 android:layout_width="60dp"
                 android:layout_height="50dp"
                 android:layout_gravity="right"
                 android:layout_marginRight="80dp"
                 android:layout_marginTop="50dp"
-                android:src="@drawable/f4" />-->
+                android:src="@drawable/f14" />
 
         </LinearLayout>
 

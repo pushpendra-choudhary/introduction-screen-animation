@@ -62,6 +62,11 @@ public class IntroPageTransformer implements ViewPager.PageTransformer {
             View fish3 = page.findViewById(R.id.fish3);
             View fish4 = page.findViewById(R.id.fish4);
             View whale = page.findViewById(R.id.whale);
+            View fish11 = page.findViewById(R.id.fish11);
+            View fish12 = page.findViewById(R.id.fish12);
+            View fish13 = page.findViewById(R.id.fish13);
+            View fish14 = page.findViewById(R.id.fish14);
+
 
             // We're attempting to create an effect for a View
             // specific to one of the pages in our ViewPager.
@@ -79,16 +84,36 @@ public class IntroPageTransformer implements ViewPager.PageTransformer {
 
             if(fish2 !=null){
                 fish2.setAlpha(1.0f - absPosition);
-                fish2.setTranslationX(-pageWidthTimesPosition * 1f);
+                fish2.setTranslationX(pageWidthTimesPosition * 1f);
             }
 
             if(fish3 !=null){
                 fish3.setAlpha(1.0f - absPosition);
-                fish3.setTranslationX(-pageWidthTimesPosition * 1f);
+                fish3.setTranslationX(pageWidthTimesPosition * 1f);
             }
             if(fish4 !=null){
                 fish4.setAlpha(1.0f - absPosition);
                 fish4.setTranslationX(pageWidthTimesPosition * 0.4f);
+            }
+
+
+            if(fish11 !=null){
+                fish11.setAlpha(1.0f - absPosition);
+                fish11.setTranslationX(pageWidthTimesPosition * 0.2f);
+            }
+
+            if(fish12 !=null){
+                fish12.setAlpha(1.0f - absPosition);
+                fish12.setTranslationX(pageWidthTimesPosition * 1f);
+            }
+
+            if(fish13 !=null){
+                fish13.setAlpha(1.0f - absPosition);
+                fish13.setTranslationX(pageWidthTimesPosition * 1f);
+            }
+            if(fish14 !=null){
+                fish14.setAlpha(1.0f - absPosition);
+                fish14.setTranslationX(pageWidthTimesPosition * 0.4f);
             }
 
             // Finally, it can be useful to know the direction
